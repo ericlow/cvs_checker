@@ -1,4 +1,6 @@
 '''
+copied from : https://github.com/burgamacha/CVS-covid-vaccine-checker
+
 This is a python script that requires you have python installed, or in a cloud environment.
 
 This script scrapes the CVS website looking for vaccine appointments in the cities you list.
