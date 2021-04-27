@@ -45,7 +45,7 @@ def findAVaccine():
                 message = client.messages \
                     .create(
                     body=str(open_appointments),
-                    from_='+XXXXXXXXXXX', XXXXXXXXXXX
+                    from_='+XXXXXXXXXXX', 
                     to='+XXXXXXXXXXX'
                 )
                 print('twilio message.sid: ' + str(message.sid))
