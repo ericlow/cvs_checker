@@ -1,16 +1,12 @@
 '''
-copied from : https://github.com/burgamacha/CVS-covid-vaccine-checker
-
-This is a python script that requires you have python installed, or in a cloud environment.
+This app was shamelessly copied from : https://github.com/burgamacha/CVS-covid-vaccine-checker
 
 This script scrapes the CVS website looking for vaccine appointments in the cities you list.
 To update for your area, update the locations marked with ### below.
 
-If you receive an error that says something is not install, type
+The original script uses 'beepy' to alert the user, but I thought that this would be the perfect application of Twilio instead.
 
-pip install beepy
-
-in your terminal.
+I did a quick hack to hit the Twilio API instead, and got this running.  Here it is, in all of it's generally unpolished glory.
 '''
 
 import urllib2
